@@ -8,6 +8,7 @@
 
     <string name="no_address">No Addresses found</string>
     <string name="no_intent_found">No application found to handle this action</string>
+    <string name="title_activity_test_list_item">TestListItemActivity</string>
 
 
 </resources>

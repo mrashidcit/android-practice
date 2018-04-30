@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     style="@style/listViewActivatedStyle"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
     android:layout_width="match_parent"
-    android:layout_height="?android:attr/listPreferredItemHeight">
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    tools:context="com.example.rashidsaleem.practice.TestListItemActivity"
+    tools:showIn="@layout/activity_test_list_item">
 
 
     <QuickContactBadge
@@ -44,6 +48,4 @@
 
 
 </RelativeLayout>
-
-
 

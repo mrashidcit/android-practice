@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:name="com.example.rashidsaleem.practice.ui.ContactsListFragment"
     android:id="@+id/contact_list"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-    <Button
+    <ListView
+        android:id="@+id/lstNames"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAllCaps="false"
-        android:text="Select a Contact"
-        android:onClick="onClickSelectContact"/>
-
-    <ImageView
-        android:id="@+id/img_contact"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
-        android:contentDescription="Contacts Image"/>
+        android:layout_height="match_parent"></ListView>
 
 
 
 
-</LinearLayout>
+</RelativeLayout>
