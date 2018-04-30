@@ -15,6 +15,8 @@ import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
 
+import static com.example.rashidsaleem.practice.R.layout.contacts_list_view;
+
 /**
  * A simple {@link Fragment} subclass.
  */
@@ -61,7 +63,8 @@ public class ContactsFragment extends Fragment implements LoaderManager.LoaderCa
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the fragment layout
-        return inflater.inflate(R.layout.contact);
+//        return inflater.inflate(R.layout.contact_list_fragment);
+        return  null;
     }
 
     @Override
